@@ -1,0 +1,15 @@
+---
+user: "{{ ansible_user_id }}"
+dotfiles_repo: "https://github.com/fhenriquez/dotfiles.git"
+dotfiles_repo_accept_hostkey: no
+dotfiles_repo_local_destination: "~/personalgit/dotfiles"
+
+dotfiles_home: "~"
+dotfiles_files:
+  - .bash_color_codes
+  - .bash_functions
+  - .bash_profile
+  - .bashrc
+  #- .gitignore
+  #- .inputrc
+  - .vimrc
